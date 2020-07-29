@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta http-equiv="Content-Language" content="ru"> 
+      <meta name="Description" content="тестовая страница"> 
+      <meta name="Keywords" content="фреймы, тест"> 
+      <meta name="Author" content="Татьяна Косачева">
+      <link rel="Start" title="Главная страница" type="text/html" href="main_page.html"> 
+         
+      <title>HTML Target Frames</title>   
+   </head>  
+   
+   <frameset cols = "200, *"><!--создание фреймсета с вертикальным делением на 200 пикселей-->
+      <frame name = "menu_page" src = "menu.html" /><!--создание фрейма с названием menu_page и ссылкой на соотв. файл menu.html-->
+      <frame name = "main_page" src = "main_right_new.html" />    
+      <noframes><!--содержимое тега <noframes> отображается в браузере, когда он не поддерживает фреймы и не умеет их интерпретировать-->
+         <body>Ваш браузер не поддерживает фреймы</body>
+      </noframes>
+   </frameset>
+   
+</html>

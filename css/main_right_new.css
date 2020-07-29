@@ -1,0 +1,12 @@
+
+table {
+}
+
+td {
+ background: rgb(240, 211, 84); /* Цвет фона */
+
+ empty-cells: hide; /* Прячем пустые ячейки */
+ padding: 5px; Поля в ячейках 
+ vertical-align: middle;   /* Вертикальное выравнивание */
+ text-align: center /* Ввыравнивание текста*/
+}
